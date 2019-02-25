@@ -59,5 +59,5 @@ DJANGO_SETTINGS_MODULE=openstack_dashboard.settings python manage.py collectstat
 DJANGO_SETTINGS_MODULE=openstack_dashboard.settings python manage.py compress --force
 sudo service apache2 restart
 
-echo "For Lord Abbett POC, username: demo password: openstack     
+echo "For Lord Abbett POC, username: demo password: openstack"     
 echo "You can access Horizon Dashboard at External IP address: http://$externalip/dashboard"
